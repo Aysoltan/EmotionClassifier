@@ -31,8 +31,8 @@ public class MainTest {
 
 		// Set the file names for the gold and predicted data.
 		Corpus corpus = new Corpus();
-		//corpus.setFileName("dev.csv");
-		corpus.setFileName("test.txt");
+		corpus.setFileName("dev.csv");
+		
 		// Get tweets list with their given gold labels.
 		corpus.extractTweetData();
 		List<Tweet> tweetsList = corpus.getTweetsList();

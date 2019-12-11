@@ -20,7 +20,7 @@ import corpus.Tweet;
  */
 public class MainTrain {
 
-	static String modelfileName = "data/../trainedWeights.txt";
+	static String modelfileName = "trainedWeights.txt";
 
 	public static void main(String[] args) throws IOException {
 
@@ -29,7 +29,7 @@ public class MainTrain {
 		// Set the file names for the train data.
 		Corpus corpus = new Corpus();
 		// corpus.setFileName("train.csv");
-		corpus.setFileName("data/../dev.csv");
+		corpus.setFileName("dev.csv");
 
 		System.out.println("********** Getting data for training takes a few minutes ... ***********");
 		// Get data for train
